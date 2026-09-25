@@ -19,6 +19,13 @@ export default function Inicio() {
         </Link>
       </View>
 
+      <View style={styles.cartao}>
+        <Text style={styles.cartaoTitulo}>Lista</Text>
+        <Text style={styles.detalhe}>Venha listar conosco.</Text>
+        <Link href="/lista" style={styles.link}>
+          Abrir lista →
+        </Link>
+      </View>
     </SafeAreaView>
   );
 }
